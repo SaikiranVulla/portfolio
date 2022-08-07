@@ -1,0 +1,70 @@
+img
+{
+  width: 350px;
+  height: 350px;
+}
+#content
+{
+  text-align: justify;
+  text-transform: capitalize;
+}
+.reveal, strong
+{
+  background: linear-gradient(#be73ce 0 0), linear-gradient(#9e4aa5 0 0);
+  background-size: 0 100%;
+  -webkit-background-clip: padding-box, text;
+  background-repeat: no-repeat;
+  background-clip: padding-box, text;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  animation: t 1.2s 0.5s both, b 1.2s 1.3s both;
+}
+@keyframes t{
+       to {
+            background-size: 200% 90%;
+           }
+          }
+@keyframes b{
+  to {
+    background-position: - 200px 0 , 0 0;
+  }
+}
+body, #first-block
+{
+  background: #a1e448;
+  
+}
+.second-blog
+{
+  background: #bd79e7;
+
+}
+.third-blog
+{
+  background: #e39cf1;
+}
+.fourth-blog
+{
+  background: #d190ac;
+
+}
+.fivth-blog
+{
+  background: #ca05fb;
+}
+.sixth-blog
+{
+  background: #09f2f2;
+}
+.seventh-blog
+{
+  background:#3c83ef
+}
+a
+{
+  margin: 0 0 0 50%; 
+}
+a :hover
+{
+  background-color: red;
+}
